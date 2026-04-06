@@ -457,6 +457,7 @@ private fun SearchToolbar(
                 contentDescription = stringResource(
                     id = string.core_ui_back,
                 ),
+                modifier = Modifier.testTag("backButton"),
             )
         }
         SearchTextField(

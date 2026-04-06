@@ -21,15 +21,15 @@ import io.github.kakaocup.compose.node.element.KNode
 object MainPage : ComposeScreen<MainPage>() {
 
     val toolbarTitle = child<KNode> {
-        hasTestTag("toolbar-title")
+        hasTestTag("toolbarTitle")
     }
 
     val toolbarSearchButton = child<KNode> {
-        hasTestTag("toolbar-searchButton")
+        hasTestTag("toolbarSearchButton")
     }
 
     val toolbarSettingsButton = child<KNode> {
-        hasTestTag("toolbar-settingsButton")
+        hasTestTag("toolbarSettingsButton")
     }
 
     val doneButton = child<KNode> {
